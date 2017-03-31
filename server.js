@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  res.send('Congratulations you have successfully running the service!')
 });
 
 app.get('/getData', function (req, res) {
